@@ -1,0 +1,13 @@
+
+
+### Create Employee
+POST http://localhost:8080/api/employee HTTP/1.1
+Content-Type: application/json
+
+{
+    "birthdate":"1998-04-25",
+    "firstname":"Janet",
+    "lastname":"Jane",
+    "gender":"FEMALE",
+    "higherDate":"2021-01-01"
+}
